@@ -23,46 +23,46 @@ Exemplos: agilidade, força, defesa, etc.
 - propriedades de nível 5 tem 15% de chance de aplicar um efeito
 
 ### Recursos
-Aço Damasco:
+1. Aço Damasco:
 Durabilidade excepcional.
 Pode ser refinado com Essência Arcana para adicionar poder mágico à lâmina.
 
-Mithril:
+2. Mithril:
 Extrema resistência e durabilidade.
 Leveza excepcional, facilitando o manuseio ágil da espada.
 Pode ser encantado com poderes mágicos adicionais.
 
-Vidro Dragônico:
+3. Vidro Dragônico:
 Extrema durabilidade e afiação.
 Pode causar dano cortante adicional aos inimigos.
 Resistente a altas temperaturas, permitindo resistência a ataques de fogo.
 
-Madeira de Ébano:
+4. Madeira de Ébano:
 Amplifica e canaliza poderes mágicos através do cabo da espada.
 Resistência a energias negativas e maldições.
 
-Pedra de Raios:
+5. Pedra de Raios:
 Pode ser incrustada na lâmina para conferir dano elétrico adicional a cada golpe.
 Resistência a ataques elétricos.
 
-Cristal de Gelo Profundo:
+6. Cristal de Gelo Profundo:
 Pode ser incrustado na lâmina, permitindo a capacidade de congelar os inimigos com golpes.
 Resistência a ataques de gelo.
 
-Prata Lunar:
+7. Prata Lunar:
 Causa dano adicional a seres das trevas e criaturas sobrenaturais.
 Permite uma conexão mística com a lua, concedendo habilidades de cura durante a noite.
 
-Couro de Dragão:
+8. Couro de Dragão:
 Proporciona um controle superior da espada devido à sua aderência excepcional.
 Oferece proteção contra ataques cortantes e perfurantes.
 Pode conferir resistência a ataques mágicos.
 
-Essência Arcana:
+9. Essência Arcana:
 Pode ser refinada e aplicada à lâmina para aumentar seu poder mágico e desencadear habilidades especiais.
 Aumenta a capacidade de canalizar e controlar magia durante o combate.
 
-Sangue de Fênix:
+10. Sangue de Fênix:
 Confere à espada a capacidade de se regenerar em caso de danos.
 Amplifica a energia vital do usuário, aumentando a força e a resistência durante o combate.
 Pode ser usado como um catalisador para encantamentos mágicos poderosos.

@@ -1,42 +1,80 @@
 from typing import List, Dict
 from item_resource import Resource
-from property import Property
+from property import properties, createNewPropertyData, Property
 
 # Game tests
-def createNewProperty(property):
-    properties[propertyId] = property
-    propertyId += 1
 
-properties: Dict[int, Property] = {}
-propertyId = 0
+# test game properties
+print("Types of properties:")
+for propCount in range(0, len(properties)):
+    print(properties[propCount])
 
-createNewProperty(Property("Dureza", 1))
-createNewProperty(Property("Dureza", 2))
-createNewProperty(Property("Dureza", 3))
-createNewProperty(Property("Leveza", 1))
-createNewProperty(Property("Leveza", 2))
-createNewProperty(Property("Leveza", 3))
-createNewProperty(Property("Durabilidade", 1))
-createNewProperty(Property("Durabilidade", 2))
-createNewProperty(Property("Durabilidade", 3))
-createNewProperty(Property("Proteção", 1))
-createNewProperty(Property("Proteção", 2))
-createNewProperty(Property("Proteção", 3))
-
-for prop in properties:
-    print(prop)
+# 0 Dureza -> Dano
+# 1 Leveza -> Agilidade
+# 2 Durabilidade -> Resistência
+# 3 Proteção -> Defesa
 
 resources: List[Resource] = [
-    Resource("Aço Damasco", []),
-    Resource("Mithril", []),
-    Resource("Vidro dracônico", []),
-    Resource("Madeira de Ébano", []),
-    Resource("Pedra de raios", []),
-    Resource("Cristal de gelo profundo", []),
-    Resource("Prata lunar", []),
-    Resource("Couro de dragão", []),
-    Resource("Essência arcana", []),
-    Resource("Sangue de Fênix", []),
+    Resource("Aço Damasco", [
+        Property(properties[0], 2),
+        Property(properties[1], 1),
+        Property(properties[2], 3),
+        Property(properties[3], 1),
+    ]),
+    Resource("Mithril", [
+        Property(properties[0], 3),
+        Property(properties[1], 2),
+        Property(properties[2], 3),
+        Property(properties[3], 1),
+    ]),
+    Resource("Vidro dracônico", [
+        Property(properties[0], 3),
+        Property(properties[1], 3),
+        Property(properties[2], 1),
+        Property(properties[3], 1),
+    ]),
+    Resource("Madeira de Ébano", [
+        Property(properties[0], 1),
+        Property(properties[1], 1),
+        Property(properties[2], 3),
+        Property(properties[3], 2),
+    ]),
+    Resource("Pedra de raios", [
+        Property(properties[0], 3),
+        Property(properties[1], 1),
+        Property(properties[2], 2),
+        Property(properties[3], 3),
+    ]),
+    Resource("Cristal de gelo profundo", [
+        Property(properties[0], 3),
+        Property(properties[1], 1),
+        Property(properties[2], 3),
+        Property(properties[3], 1),
+    ]),
+    Resource("Prata lunar", [
+        Property(properties[0], 2),
+        Property(properties[1], 1),
+        Property(properties[2], 3),
+        Property(properties[3], 1),
+    ]),
+    Resource("Couro de dragão", [
+        Property(properties[0], 2),
+        Property(properties[1], 1),
+        Property(properties[2], 3),
+        Property(properties[3], 1),
+    ]),
+    Resource("Essência arcana", [
+        Property(properties[0], 2),
+        Property(properties[1], 1),
+        Property(properties[2], 3),
+        Property(properties[3], 1),
+    ]),
+    Resource("Sangue de Fênix", [
+        Property(properties[0], 2),
+        Property(properties[1], 1),
+        Property(properties[2], 3),
+        Property(properties[3], 1),
+    ]),
 ]
 
 #for resource in resources:
